@@ -83,8 +83,6 @@ class App:
         rgb_array = np.array([palette[pixel] for pixel in pixeldata], dtype=np.uint8)
         # Reshape the array to (128, 192, 3)
         reshaped_array = rgb_array.reshape((128, 192, 3))
-        # Convert the reshaped array to a tuple of tuples if needed
-        reshaped_tuple = tuple(map(tuple, reshaped_array))
 
         self.ft.send_array(reshaped_array, (0,0,0))
 
