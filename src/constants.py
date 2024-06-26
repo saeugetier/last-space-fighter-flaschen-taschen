@@ -1,8 +1,8 @@
 # Pyxel config
 FPS = 60
 SHOW_CURSOR = False
-WIDTH = 160
-HEIGHT = 120
+WIDTH = 192
+HEIGHT = 128
 MID_W = WIDTH / 2
 MID_H = HEIGHT / 2
 SCORE_FILE = "lastspacefighter_scores.dat"
