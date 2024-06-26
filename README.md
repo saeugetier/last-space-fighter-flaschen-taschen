@@ -33,3 +33,5 @@ Keys to play :
 ## License
 
 This project is licensed under the terms of [MIT License](LICENSE).
+
+The project contains a modified version of the [Flaschen-Taschen python library](https://github.com/hzeller/flaschen-taschen/blob/master/api/python/flaschen.py) which is licensed under GPL2.
