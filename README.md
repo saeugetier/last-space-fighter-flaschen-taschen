@@ -8,6 +8,10 @@ Originally inspired by the [«Defenders of the weeping Quasar»](https://ianmacl
 
 ![intro](branding/screenshots/intro.gif) ![boss](branding/screenshots/boss1.gif)
 
+## Modifications
+
+This version is modified in order to output the image on an LED matrix with 192x128 pixels. The output is done via Flaschen-Taschen UDP protocol.
+
 ## Requirements
 
 You need [install Pyxel from Kitao](https://github.com/kitao/pyxel#how-to-install).
