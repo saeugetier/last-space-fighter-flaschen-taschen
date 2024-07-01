@@ -120,7 +120,7 @@ class Flaschen(object):
 
     for y in range(0, height, chunk_size):
       if y + chunk_size > height:
-        chunk_size = height - y -1
+        chunk_size = height - y
       chunk = array[y:y + chunk_size]
       chunk_bytes = chunk.tobytes()
       if len(chunk_bytes) > max_packet_size:
